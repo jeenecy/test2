@@ -1,0 +1,139 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+
+ul,ol{list-style: none;}
+a{text-decoration:none;}
+img{vertical-align:top;}
+
+html,body{width:100%;
+		  height:100%;}
+
+body{display: flex;
+	flex-direction:column;
+	}
+
+header{width:7.5rem;
+	   height:0.88rem;
+	   display:flex;
+	   justify-content:space-around;
+	   background-color:#161618;
+	   }   
+
+header ul {width:3.46rem;
+		   height:0.88rem;
+		   display: flex;
+		   justify-content:space-between;
+		   align-items: center;
+		   margin-left:2.46rem;}
+
+header ul li{line-height:0.88rem;
+			 width:33%;}
+
+header ul li:nth-child(1){background:url(../images/line.png) no-repeat 7px 37px;}
+header ul li:nth-child(2){background:url(../images/red.png) no-repeat 38px 7px;
+						  background-size:16px 15px;}
+header ul li a{font-size:0.34rem;}
+header ul li:nth-child(1) a{color:#0bbe06;}
+header ul li:nth-child(2) a{color:#666666;}
+header ul li i{font-size:0.37rem !important;
+			   color:#666667;
+			   margin-left:73px;}
+/*主体视频区域*/
+main{width:100%;
+		height:11.08rem;
+		display:flex;
+		flex-direction: column;}
+
+main section {width:100%;
+				  height:96%;
+				  display:flex;
+				  flex-direction: column;}
+main section .sectiona{width:100%;
+				  height:48%;
+				  display:flex;
+				  flex-direction:column;}
+main section .sectiona img{width:100%;
+					  height:4.22rem;}									
+main section .sectiona .videoindex1{height:1.14rem;
+									display:flex;}
+main section .sectiona .videoindex1	.left1{width:2.81rem;
+											height:1.14rem;
+											background:url(../images/meiququ.png) no-repeat 24px 20px;
+											background-size:0.67rem 0.62rem;}
+main section .sectiona .videoindex1	.left1 p{font-size:0.24rem;
+											  padding-left: 1.2rem;
+											  padding-top: 0.55rem;
+											  color:#666666;}																			
+
+main section .sectiona .videoindex1	.right1{width:4.69rem;
+											height:1.14rem;}
+											
+main section .sectiona .videoindex1	.right1 ul{width:100%;
+											   height:100%;
+											   display:flex;
+											   justify-content:space-around;
+											   align-items:center;
+											   }
+main section .sectiona .videoindex1	.right1 ul li{width:25%;  height:100%;
+												  display:flex;
+												 justify-content:space-around;
+												 align-items:center;}		
+
+main section .sectiona .videoindex1	.right1 ul li i{font-size:0.38rem;
+													color:#666666;}
+																				   
+main section .sectionb{width:100%;
+					   height:48%;
+					   display:flex;
+					   flex-direction:column;}
+					   
+main section .sectionb img{width:100%;
+						   height:4.22rem}
+															   
+main section .sectionb .videoindex2{height:1.14rem;
+									display: flex;}								
+				  
+main section .sectionb .videoindex2	.left2{width:2.81rem;
+											height:1.14rem;
+											background:url(../images/girl.png) no-repeat 24px 20px;
+											background-size:0.67rem 0.62rem;}
+main section .sectionb .videoindex2	.left2 p{font-size:0.24rem;
+											  padding-left: 1.2rem;
+											  padding-top: 0.55rem;
+											  color:#666666;}																			
+
+main section .sectionb .videoindex2	.right2{width:4.69rem;
+											height:1.14rem;}
+											
+main section .sectionb .videoindex2	.right2 ul{width:100%;
+											   height:100%;
+											   display:flex;
+											   justify-content:space-around;
+											   align-items:center;
+											   }
+main section .sectionb .videoindex2	.right2 ul li{width:25%;  height:100%;
+												  display:flex;
+												 justify-content:space-around;
+												 align-items:center;}		
+
+main section .sectionb .videoindex2	.right2 ul li i{font-size:0.38rem;
+													color:#666666;}
+main .dy{height:4%;}
+
+main .dy img{width:100%;
+			 height:100%;}
+
+footer{height:0.98rem;
+	   display:flex;}
+	   
+footer ul{width:100%;
+		  height:100%;
+		  display: flex;
+		  justify-content:space-between;
+		  align-items: center;
+		  padding:0 0.5rem;}	   
+footer ul li{display:flex;
+			 flex-direction: column;
+			 align-items: center;}
+footer ul li i{font-size:0.5rem !important;
+			   color:#b2aeb1;}
+footer ul li span{font-size:0.18rem;}																																											 
